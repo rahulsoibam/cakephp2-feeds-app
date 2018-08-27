@@ -1,0 +1,1055 @@
+2018-08-26 16:02:44 Error: [MissingControllerException] Controller class Ncsi.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Ncsi.txtController',
+  'plugin' => NULL,
+)
+Request URL: /ncsi.txt
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 16:33:28 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmyadmin/scripts/setup.php
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 20:12:33 Error: [MissingControllerException] Controller class FeedController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedController',
+  'plugin' => NULL,
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 20:13:43 Error: [MissingControllerException] Controller class FeedController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedController',
+  'plugin' => NULL,
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 20:13:46 Error: [MissingControllerException] Controller class FeedController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedController',
+  'plugin' => NULL,
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 20:13:47 Error: [MissingControllerException] Controller class FeedController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedController',
+  'plugin' => NULL,
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 20:14:16 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /feed/index
+Stack Trace:
+#0 [internal function]: App::load('FeedController')
+#1 [internal function]: spl_autoload_call('FeedController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('FeedController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-26 20:15:26 Error: [MissingTableException] Table feeds for model Feed was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'feeds',
+  'class' => 'Feed',
+  'ds' => 'default',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('feeds')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /var/www/testapp/Controller/FeedController.php(6): Model->find('all')
+#4 [internal function]: FeedController->index()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-26 20:17:28 Error: [MissingTableException] Table feeds for model Feed was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'feeds',
+  'class' => 'Feed',
+  'ds' => 'default',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('feeds')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /var/www/testapp/Controller/FeedController.php(6): Model->find('all')
+#4 [internal function]: FeedController->index()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-26 20:17:32 Error: [MissingTableException] Table feeds for model Feed was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'feeds',
+  'class' => 'Feed',
+  'ds' => 'default',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('feeds')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /var/www/testapp/Controller/FeedController.php(6): Model->find('all')
+#4 [internal function]: FeedController->index()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-26 20:17:34 Error: [MissingTableException] Table feeds for model Feed was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'feeds',
+  'class' => 'Feed',
+  'ds' => 'default',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('feeds')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /var/www/testapp/Controller/FeedController.php(6): Model->find('all')
+#4 [internal function]: FeedController->index()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-26 20:17:36 Error: [MissingTableException] Table feeds for model Feed was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'feeds',
+  'class' => 'Feed',
+  'ds' => 'default',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('feeds')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /var/www/testapp/Controller/FeedController.php(6): Model->find('all')
+#4 [internal function]: FeedController->index()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-26 20:19:17 Error: [MissingViewException] View file "Feed/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feed/index.ctp',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feed/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-26 21:08:37 Error: [MissingViewException] View file "Feed/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feed/index.ctp',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feed/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-26 21:32:12 Error: [MissingViewException] View file "Feed/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feed/index.ctp',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feed/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-26 21:32:16 Error: [MissingViewException] View file "Feed/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feed/index.ctp',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feed/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-26 21:32:18 Error: [MissingViewException] View file "Feed/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feed/index.ctp',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feed/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-26 21:32:19 Error: [MissingViewException] View file "Feed/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feed/index.ctp',
+)
+Request URL: /feed/index
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feed/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-26 21:36:46 Error: [MissingControllerException] Controller class FeedsController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedsController',
+  'plugin' => NULL,
+)
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 21:37:06 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 21:44:44 Error: [MissingControllerException] Controller class FeedsController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedsController',
+  'plugin' => NULL,
+)
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 21:45:08 Error: [MissingViewException] View file "Feed/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feed/index.ctp',
+)
+Request URL: /feed
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feed/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-26 21:45:25 Error: [MissingControllerException] Controller class FeedsController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedsController',
+  'plugin' => NULL,
+)
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 21:53:36 Error: [MissingControllerException] Controller class FeedController could not be found.
+Exception Attributes: array (
+  'class' => 'FeedController',
+  'plugin' => NULL,
+)
+Request URL: /feed
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-26 23:41:05 Error: [ParseError] syntax error, unexpected 'if' (T_IF)
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-26 23:41:17 Error: [ParseError] syntax error, unexpected 'if' (T_IF)
+Request URL: /users/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-26 23:52:21 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(26): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 00:00:28 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(40): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 00:10:27 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(40): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 00:13:10 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(40): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 00:15:05 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(NULL, Array)
+#5 /var/www/testapp/Controller/UsersController.php(40): Model->save(NULL)
+#6 [internal function]: UsersController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 00:16:20 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(NULL, Array)
+#5 /var/www/testapp/Controller/UsersController.php(40): Model->save(NULL)
+#6 [internal function]: UsersController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 00:19:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(NULL, Array)
+#5 /var/www/testapp/Controller/UsersController.php(40): Model->save(NULL)
+#6 [internal function]: UsersController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 00:22:58 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(40): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 00:43:51 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(NULL, Array)
+#5 /var/www/testapp/Controller/UsersController.php(44): Model->save(NULL)
+#6 [internal function]: UsersController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 00:48:04 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(44): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 00:53:25 Error: [ParseError] syntax error, unexpected ','
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('User')
+#1 [internal function]: spl_autoload_call('User')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Utility/ClassRegistry.php(146): class_exists('User')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('User')
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('User')
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('User', 'key')
+#6 /var/www/testapp/View/Users/add.ctp(2): FormHelper->create('User')
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(971): include('/var/www/testap...')
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#10 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#11 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#12 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-27 00:53:28 Error: [ParseError] syntax error, unexpected ','
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('User')
+#1 [internal function]: spl_autoload_call('User')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Utility/ClassRegistry.php(146): class_exists('User')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('User')
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('User')
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('User', 'key')
+#6 /var/www/testapp/View/Users/add.ctp(2): FormHelper->create('User')
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(971): include('/var/www/testap...')
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#10 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#11 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#12 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-27 00:53:59 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(40): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 01:00:58 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(41): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 01:02:38 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(40): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 01:03:14 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(39): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 01:03:54 Error: [Error] Cannot use object of type User as array
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php(241): User->beforeSave(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#3 /var/www/testapp/Controller/UsersController.php(39): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-08-27 01:08:36 Error: [ParseError] syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';'
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('User')
+#1 [internal function]: spl_autoload_call('User')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Utility/ClassRegistry.php(146): class_exists('User')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('User')
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('User')
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('User', 'key')
+#6 /var/www/testapp/View/Users/add.ctp(2): FormHelper->create('User')
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(971): include('/var/www/testap...')
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#10 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#11 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#12 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-27 01:10:15 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-27 01:26:01 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-27 01:57:00 Error: [MissingControllerException] Controller class Echo.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Echo.phpController',
+  'plugin' => NULL,
+)
+Request URL: /echo.php
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-27 02:54:54 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 02:55:15 Error: [MissingControllerException] Controller class UserControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UserControllerController',
+  'plugin' => NULL,
+)
+Request URL: /User%20controller/add
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-27 02:55:59 Error: [MissingControllerException] Controller class UserControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UserControllerController',
+  'plugin' => NULL,
+)
+Request URL: /User%20controller/add
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-27 02:56:05 Error: [MissingControllerException] Controller class UserControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UserControllerController',
+  'plugin' => NULL,
+)
+Request URL: /User%20controller/add
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-27 03:40:49 Error: [ParseError] syntax error, unexpected ')', expecting ';'
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 03:42:19 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-27 03:47:49 Error: [Error] Call to undefined function redirectUrl()
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-27 04:20:15 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<nav class="nav...', 'default')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#6 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-08-27 04:20:15 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2018-08-27 04:20:15 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2018-08-27 11:02:28 Error: [MissingControllerException] Controller class Azenv.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Azenv.phpController',
+  'plugin' => NULL,
+)
+Request URL: /azenv.php?auth=153536774895&a=PSCMN&i=2388515018&p=80
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-27 13:02:01 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 14:44:49 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('users')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/testapp/View/Users/login.ctp(8): FormHelper->create('User')
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(971): include('/var/www/testap...')
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-08-27 14:55:54 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('users')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/testapp/View/Users/login.ctp(8): FormHelper->create('User')
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(971): include('/var/www/testap...')
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-08-27 14:59:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test__!!' for key 'username'
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/testapp/Controller/UsersController.php(44): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 14:59:51 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test12345' for key 'username'
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/testapp/Controller/UsersController.php(44): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 15:01:44 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /feeds
+Stack Trace:
+#0 [internal function]: App::load('FeedsController')
+#1 [internal function]: spl_autoload_call('FeedsController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('FeedsController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 15:02:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test123456' for key 'username'
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/testapp/Controller/UsersController.php(44): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 15:07:20 Error: [ArgumentCountError] Too few arguments to function UsersController::add(), 0 passed and exactly 1 expected
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: UsersController->add()
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-27 15:25:09 Error: [ParseError] syntax error, unexpected 'if' (T_IF)
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 15:25:13 Error: [ParseError] syntax error, unexpected 'if' (T_IF)
+Request URL: /users/add
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 15:25:37 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /feeds
+Stack Trace:
+#0 [internal function]: App::load('FeedsController')
+#1 [internal function]: spl_autoload_call('FeedsController')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(266): class_exists('FeedsController')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 15:26:42 Error: [MissingActionException] Action FeedsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeedsController',
+  'action' => 'index',
+)
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#2 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-08-27 16:36:39 Error: [ParseError] syntax error, unexpected '++' (T_INC)
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 17:31:25 Error: [MissingControllerException] Controller class Dd.rarController could not be found.
+Exception Attributes: array (
+  'class' => 'Dd.rarController',
+  'plugin' => NULL,
+)
+Request URL: /dd.rar
+Stack Trace:
+#0 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-08-27 18:27:44 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /feeds/index/page:37
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 18:39:28 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /feeds/index/page:37
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 19:07:19 Error: [NotFoundException] Not Found
+Request URL: /feeds/index/page:400
+Stack Trace:
+#0 /var/www/testapp/Controller/FeedsController.php(24): PaginatorComponent->paginate(Object(Feed))
+#1 [internal function]: FeedsController->index()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 19:07:28 Error: [NotFoundException] Not Found
+Request URL: /feeds/index/page:399
+Stack Trace:
+#0 /var/www/testapp/Controller/FeedsController.php(24): PaginatorComponent->paginate(Object(Feed))
+#1 [internal function]: FeedsController->index()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 19:07:35 Error: [NotFoundException] Not Found
+Request URL: /feeds/index/page:100
+Stack Trace:
+#0 /var/www/testapp/Controller/FeedsController.php(24): PaginatorComponent->paginate(Object(Feed))
+#1 [internal function]: FeedsController->index()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 19:08:02 Error: [NotFoundException] Not Found
+Request URL: /feeds/index/page:100
+Stack Trace:
+#0 /var/www/testapp/Controller/FeedsController.php(24): PaginatorComponent->paginate(Object(Feed))
+#1 [internal function]: FeedsController->index()
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 20:05:25 Error: [MissingViewException] View file "Feeds/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Feeds/add.ctp',
+)
+Request URL: /feeds/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Feeds/add')
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#4 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-27 20:59:02 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /feeds/add
+Stack Trace:
+#0 [internal function]: App::load('Feed')
+#1 [internal function]: spl_autoload_call('Feed')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Feed')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(163): ClassRegistry::init('Feed')
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('Feed')
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('Feed', 'key')
+#6 /var/www/testapp/View/Feeds/add.ctp(8): FormHelper->create('Feed')
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(971): include('/var/www/testap...')
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#10 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#11 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#12 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#13 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-27 20:59:52 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /feeds
+Stack Trace:
+#0 [internal function]: App::load('Feed')
+#1 [internal function]: spl_autoload_call('Feed')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Utility/ClassRegistry.php(146): class_exists('Feed')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(741): ClassRegistry::init('Feed')
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Feed')
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(286): Controller->__isset('Feed')
+#6 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(151): PaginatorComponent->_getObject('Feed')
+#7 /var/www/testapp/Controller/FeedsController.php(24): PaginatorComponent->paginate('Feed')
+#8 [internal function]: FeedsController->index()
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#10 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#12 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-08-27 21:08:04 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1535404084' for column 'created_date' at row 1
+Request URL: /feeds/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('INSERT INTO `jo...', Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1092): DboSource->execute('INSERT INTO `jo...')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(Feed), Array, Array)
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/testapp/Controller/FeedsController.php(31): Model->save(Array)
+#6 [internal function]: FeedsController->add()
+#7 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#8 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#10 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-08-27 21:21:41 Error: [ParseError] syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 21:52:16 Error: [ParseError] syntax error, unexpected ':', expecting ',' or ')'
+Request URL: /feeds/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 21:52:37 Error: [ParseError] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /feeds/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 21:52:40 Error: [ParseError] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /feeds/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 22:06:51 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /feeds/add
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#5 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-08-27 22:19:24 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/testap...', Array)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(546): View->_render('/var/www/testap...')
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/View/View.php(481): View->renderLayout('<nav class="nav...', 'default')
+#3 /var/www/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#4 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest))
+#6 /var/www/testapp/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-08-27 22:19:24 Error: Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+2018-08-27 22:19:24 Error: [FatalErrorException] Exception thrown without a stack frame
+Request URL: /feeds
+Stack Trace:
+#0 /var/www/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /var/www/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /var/www/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
